@@ -8,4 +8,9 @@ final class Check
     {
         return 'yes';
     }
+
+    public function anotherCHeck()
+    {
+        return 'hm';
+    }
 }
