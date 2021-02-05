@@ -1,0 +1,22 @@
+{
+  "name": "olegatro/composer-test",
+  "description": "composer test library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleg Scherbakov",
+      "email": "shcherbakov.oleg88@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ComposerTest\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-dom": "*",
+    "tgalopin/html-sanitizer": "^1.4"
+  }
+}
